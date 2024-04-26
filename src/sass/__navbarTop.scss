@@ -1,0 +1,51 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.headertop__section {
+  .header__top-wrapper {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar__top-links {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      a {
+        font-family: Segoe UI;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.47999998927116394px;
+        text-align: left;
+        cursor: pointer;
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: #000;
+      }
+      a.active {
+        color: red;
+        border-bottom: 2px solid #f53e32;
+      }
+    }
+    .navbar__top-call {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      p {
+        font-family: Segoe UI;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.47999998927116394px;
+        text-align: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.lines__wrapper {
+  background-color: #f53e32;
+  margin-top: 22px;
+  color: #fff;
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+    .lines__section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 0;
+      p {
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 700;
+      }
+      .line {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a {
+          p {
+            color: #fff;
+          }
+        }
+        p {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 18.2px;
+        }
+      }
+    }
+  }
+}
